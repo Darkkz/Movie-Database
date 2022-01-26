@@ -8,7 +8,7 @@ app.get("/", (req, res, next) => {
 });
 
 app.get("/movies", (req, res, next) => {
-    res.status(200).sendFile(path.join(__dirname + '/index.html'));
+    res.status(200).sendFile(path.join(__dirname + '/movies.html'));
 });
 
 app.listen(port);
