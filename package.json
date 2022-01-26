@@ -1,0 +1,22 @@
+{
+  "name": "movie-database",
+  "version": "1.0.0",
+  "description": "Movie Database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkkz/Movie-Database.git"
+  },
+  "author": "Jake Diedrich/Jaylen Carroll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkkz/Movie-Database/issues"
+  },
+  "homepage": "https://github.com/Darkkz/Movie-Database#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
