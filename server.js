@@ -7,5 +7,9 @@ app.get("/", (req, res, next) => {
     res.status(200).sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.get("/movies", (req, res, next) => {
+    res.status(200).sendFile(path.join(__dirname + '/index.html'));
+});
+
 app.listen(port);
 console.log("Server listening at http://localhost:3000");
