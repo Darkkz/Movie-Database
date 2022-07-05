@@ -18,5 +18,6 @@
   "homepage": "https://github.com/Darkkz/Movie-Database#readme",
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "devDependencies": {}
 }
